@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محصولات مراقبت پوستی</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #ff9eb6;
+            padding: 20px;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 200px;
+            margin: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+        .product button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #ff6f91;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .product button:hover {
+            background-color: #e55b7c;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>محصولات مراقبت پوستی ما</h1>
+        <p>زیبایی و طراوت پوست شما هدف ماست!</p>
+    </header>
+
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>توضیحات کوتاه در مورد محصول</p>
+            <button onclick="location.href='https://wa.me/شماره_واتساپ_شما'">خرید از واتساپ</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="محصول ۲">
+            <h2>محصول ۲</h2>
+            <p>توضیحات کوتاه در مورد محصول</p>
+            <button onclick="location.href='https://instagram.com/direct/inbox'">خرید از دایرکت</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="محصول ۳">
+            <h2>محصول ۳</h2>
+            <p>توضیحات کوتاه در مورد محصول</p>
+            <button onclick="location.href='https://wa.me/شماره_واتساپ_شما'">خرید از واتساپ</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 - تمامی حقوق محفوظ است | فروشگاه محصولات مراقبت پوستی</p>
+    </footer>
+</body>
+</html>
